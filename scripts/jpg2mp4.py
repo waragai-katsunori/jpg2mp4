@@ -4,10 +4,10 @@ import cv2
 
 if __name__ == "__main__":
     """
-    image_dir のjpgファイルをmp4のファイルに変換する。
+    Convert jpg files in image_dir to mp4 file.
     """
     import argparse
-    parser = argparse.ArgumentParser(description="jpg2mp4")
+    parser = argparse.ArgumentParser(description="jpg2mp4 converter")
     parser.add_argument("dir", help="image_dir ")
     args = parser.parse_args()
 
