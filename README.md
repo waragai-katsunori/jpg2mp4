@@ -26,4 +26,15 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 
+$ python concat.py  -h
+usage: concat.py [-h] dir dir2
+
+Concatenate images and save as a mp4 file
+
+positional arguments:
+  dir         image_dir
+  dir2        image_dir2
+
+optional arguments:
+  -h, --help  show this help message and exit
 ```
