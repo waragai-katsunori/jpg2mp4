@@ -4,7 +4,7 @@ import numpy as np
 
 if __name__ == "__main__":
     import argparse
-    parser = argparse.ArgumentParser(description="jpg2mp4 converter")
+    parser = argparse.ArgumentParser(description="rotate and trim")
     parser.add_argument("dir", help="image_dir ")
     args = parser.parse_args()
 
